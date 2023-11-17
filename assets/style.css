@@ -55,4 +55,5 @@ main{
 
 .quiz-box-main > * {
     margin: 0.25%;
+    user-select: none;
 }
