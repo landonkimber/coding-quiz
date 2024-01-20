@@ -6,22 +6,24 @@
     <title>Landon's Coding Quiz</title>
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
 </head>
 <!-- ********** HEADER ********** -->
 <body>
     <header>
         <h1>Landon's Coding Quiz<h1>
         <nav>
-            <div class="header-left"><h3>Time Left:</h3></div>
-            <div class="header-mid"><h3>Score:</h3></div>
-            <div class="header-right"><h3>Highscores</h3></div>
+            <div class="header-left"><h3>Time Left: 30 </h3></div>
+            <div class="header-mid"><h3>Score: 0 </h3></div>
+            <div class="header-right" id="highscores"><h3>Highscores</h3></div>
         </nav>
     </header>
 <!-- ********** MAIN ********** -->
     <main>
-        <div class="quiz-box">
-            <h2 class="quiz-box-header">Are you ready?</h2>
-            <div class="quiz-box-main" id="start-button"><a>Start QUiz</a></div>
+        <div class="display-start" id="quiz-box">
+            <div id="instructions-box">Press start to begin the test!</div>
+            <div id="start-box">Start</div>
         </div>
     </main>
 
