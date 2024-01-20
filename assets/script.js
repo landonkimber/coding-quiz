@@ -43,7 +43,7 @@ function shuffleArray(array) {
     return array;
 }
 
-var secondsLeft = 300;
+var secondsLeft = 30;
 var timerInterval;
 function startTimer() {
     // Sets interval in variable
